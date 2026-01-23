@@ -1,4 +1,4 @@
-# About fCheetos1
+# About fCheetos
 Version .CT - 6.3.4 | Version .exe - 0.1
 
 ## Main developer:
