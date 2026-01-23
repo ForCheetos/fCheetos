@@ -14,5 +14,4 @@
 ### Special thanks to:
 - Yahya
 
-- Version .CT - 6.3.4
-- Version .exe - 0.1
+Version .CT - 6.3.4 | Version .exe - 0.1
