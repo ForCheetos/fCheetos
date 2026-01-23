@@ -8,7 +8,7 @@ Version .CT - 6.3.4 | Version .exe - 0.1
 - ForLastRefund
 
 ## Status:
-- Europe - Unknown
+- Europe - Testing
 - Asia - Unsafe
 - America - Safe
 
