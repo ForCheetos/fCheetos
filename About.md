@@ -1,4 +1,5 @@
 # About fCheetos
+Version .CT - 6.3.4 | Version .exe - 0.1
 
 ## Main developer:
 - Crashyyyn
@@ -13,5 +14,3 @@
 
 ### Special thanks to:
 - Yahya
-
-Version .CT - 6.3.4 | Version .exe - 0.1
