@@ -1,16 +1,19 @@
 # About fCheetos
-Version .CT - 6.3.4 | Version .exe - 0.1
+Version .CT - v6.3.4 | Version .exe - v0.1
 
-## Main developer:
+## Cheetos Developer(s):
 - Crashyyyn
 - Nefer
-## Developer:
+
+## APP Developer:
 - ForLastRefund
 
 ## Status:
 - Europe - Testing
 - Asia - Unsafe
 - America - Safe
+- TW/HK/MO - No Support! Use at your own risk!
 
 ### Special thanks to:
 - Yahya
+- 515xyz(for general cheat-engine stuff)
