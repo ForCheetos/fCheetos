@@ -1,4 +1,4 @@
-# Hakkında fCheetos
+# About fCheetos
 Version .CT - v6.3.4 | Version .exe - v0.1
 
 ## Cheetos Developer(s):
