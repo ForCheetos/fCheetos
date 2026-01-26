@@ -3,7 +3,7 @@ Version .CT - v6.3.4 | Version .exe - v0.1 fix
 
 ## Cheetos Developer(s):
 - Crashyyyn
-- Nefer
+- Columbina
 
 ## APP Developer:
 - ForLastRefund
