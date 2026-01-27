@@ -3,7 +3,8 @@
   <CheatEntries>
     <CheatEntry>
       <ID>359253</ID>
-      <Description>"get $process (GetBaseAddress:X)"</Description>
+      <Description>"ENABLE BEFORE USING"</Description>
+      <Color>FF00FF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
 
@@ -49,7 +50,7 @@ synchronize(createTimer, 1, memrec.setActive, false)
     </CheatEntry>
     <CheatEntry>
       <ID>359212</ID>
-      <Description>"[👑] About -&gt; 6.3.5"</Description>
+      <Description>"[👑] About -&gt; 6.3.6"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
       <Color>FF8080</Color>
       <VariableType>Auto Assembler Script</VariableType>
@@ -204,6 +205,74 @@ synchronize(createTimer, 256, memrec.setActive, false)
 {$lua}
 shellExecute("http://discord.gg/5AvAy2YqPX")
 synchronize(createTimer, 256, memrec.setActive, false)
+{$asm}
+[disable]
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>359700</ID>
+      <Description>"[::] Server Status(CHECK THIS BEFORE USING)"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Color>FF8080</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+[disable]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>359701</ID>
+          <Description>"BLUE=TESTING,YELLOW=NO HIGH VALUE,RED=NOT SAFE"</Description>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+{$lua}
+
+synchronize(createTimer, 1, memrec.setActive, false)
+
+{$asm}
+[disable]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>359705</ID>
+          <Description>"America"</Description>
+          <Color>CB4D16</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+{$lua}
+
+synchronize(createTimer, 1, memrec.setActive, false)
+
+{$asm}
+[disable]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>359702</ID>
+          <Description>"Europe"</Description>
+          <Color>00DFDF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+{$lua}
+
+synchronize(createTimer, 1, memrec.setActive, false)
+
+{$asm}
+[disable]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>359704</ID>
+          <Description>"Asia"</Description>
+          <Color>0000FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+{$lua}
+
+synchronize(createTimer, 1, memrec.setActive, false)
+
 {$asm}
 [disable]
 </AssemblerScript>
