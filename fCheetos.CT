@@ -3,8 +3,7 @@
   <CheatEntries>
     <CheatEntry>
       <ID>359253</ID>
-      <Description>"ENABLE BEFORE USING"</Description>
-      <Color>FF00FF</Color>
+      <Description>"get $process (GetBaseAddress:X)"</Description>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
 
@@ -50,7 +49,7 @@ synchronize(createTimer, 1, memrec.setActive, false)
     </CheatEntry>
     <CheatEntry>
       <ID>359212</ID>
-      <Description>"[👑] About -&gt; 6.3.6"</Description>
+      <Description>"[👑] About -&gt; 6.3.7"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
       <Color>FF8080</Color>
       <VariableType>Auto Assembler Script</VariableType>
