@@ -9,9 +9,9 @@ Version .CT - v6.3.4 | Version .exe - v0.1 fix
 - ForLastRefund
 
 ## Status:
-- Europe - Testing
-- Asia - Unsafe
-- America - Safe
+- Europe - No Information
+- Asia - No Information
+- America - No Information
 - TW/HK/MO - No Support! Use at your own risk!
 
 ### Special thanks to:
