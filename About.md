@@ -1,5 +1,5 @@
 # About fCheetos
-Version .CT - v6.3.4 | Version .exe - v0.2
+Version .CT - v6.3.4 | Version .exe - v0.2.1 (fix)
 
 ## Cheetos Developer(s):
 - Crashyyyn
@@ -17,4 +17,5 @@ Version .CT - v6.3.4 | Version .exe - v0.2
 ### Special thanks to:
 - Yahya
 - 515xyz(for general cheat-engine stuff)
+
 
