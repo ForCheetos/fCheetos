@@ -15,8 +15,8 @@ Version .CT - v6.3.7 | Version .exe - v0.3.1
 - TW/HK/MO - No Support! Use at your own risk!
 
 ### Special thanks to:
-- Yahya
 - 515xyz(for general cheat-engine stuff)
+
 
 
 
