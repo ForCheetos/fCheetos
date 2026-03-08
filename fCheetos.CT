@@ -279,11 +279,11 @@ _hookat116:
           <Description>"[🔗] No Fall Damage"</Description>
           <Color>408000</Color>
           <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript Async="1">define(address,base+8E11150)
+          <AssemblerScript Async="1">define(address,base+901B630)
 define(bytes,41 56 56 57 53)
 [ENABLE]
 assert(address,bytes)
-alloc(newmem,$1000,base+8E11150)
+alloc(newmem,$1000,base+901B630)
 label(code)
 label(return)
 newmem:
@@ -1582,3 +1582,4 @@ dealloc(newmem)
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
+
