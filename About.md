@@ -6,7 +6,7 @@ Version .CT - v6.4.0 | Version .exe - v0.5
 - Columbina
 - 515xyz
 
-## Launcher Developer:
+## Launcher  and lRecheetos Developer:
 - lRucifixTeam
 
 ## Status:
@@ -14,6 +14,7 @@ Version .CT - v6.4.0 | Version .exe - v0.5
 - Asia - No Information
 - America - No Information
 - TW/HK/MO - No Support! Use at your own risk!
+
 
 
 
