@@ -1,19 +1,20 @@
 # About fCheetos
-Version .CT - v6.4.0 | Version .exe - v0.5.2
+Version .CT - v6.4.0 | Version .exe - v0.6
 
 ## Cheetos Developer(s):
 - Crashyyyn
 - Columbina
 - 515xyz
+- depyume
 
 ## Launcher  and lRecheetos Developer:
 - lRucifixTeam
 
 ## Status:
-- Europe - No Information
-- Asia - No Information
-- America - No Information
-- TW/HK/MO - No Support! Use at your own risk!
+- Asia - Not Recommended to Use!
+- Europe - Not Recommended to Use!
+- America - Not Recommended to Use!
+- TW/HK/MO - Not Recommended to Use!
 
 
 
