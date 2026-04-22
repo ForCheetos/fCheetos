@@ -7,6 +7,7 @@
     <CheatEntry>
       <ID>359253</ID>
       <Description>"Enable this Before Using fCheetos"</Description>
+      <LastState Activated="1"/>
       <Color>0000FF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -25,7 +26,7 @@ getMainForm().Panel5.Visible = false
 getMainForm().Splitter1.Visible = false
 
 controlMainForm = getMainForm()
-control_setCaption(controlMainForm,"fCheetos - Tester Version 6.5.0.2 - IF YOU BOUGHT THIS YOU ARE SCAMMED")
+control_setCaption(controlMainForm,"fCheetos - Tester Version 6.5.1.1 - IF YOU BOUGHT THIS YOU ARE SCAMMED")
 {$asm}
 [disable]
 {$lua}
@@ -40,6 +41,7 @@ end
       <ID>356944</ID>
       <Description>"[👑] About - 6.5"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
       <Color>FF8080</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -50,6 +52,7 @@ end
           <ID>357053</ID>
           <Description>"[✨] Developer"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>C0C0C0</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -60,6 +63,7 @@ end
               <ID>356946</ID>
               <Description>"[✨] Crash(OLD)"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -72,6 +76,7 @@ end
                 <CheatEntry>
                   <ID>357038</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -90,6 +95,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
               <ID>362268</ID>
               <Description>"[✨] 515xyz"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -102,6 +108,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
                 <CheatEntry>
                   <ID>362273</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -120,6 +127,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
               <ID>362270</ID>
               <Description>"[✨] lRefund"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -132,6 +140,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
                 <CheatEntry>
                   <ID>362274</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -150,6 +159,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
               <ID>362272</ID>
               <Description>"[✨] Columbina"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -162,6 +172,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
                 <CheatEntry>
                   <ID>362275</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -182,6 +193,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
           <ID>357099</ID>
           <Description>"[🧸] Contributor"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>C0C0C0</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -191,6 +203,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358623</ID>
               <Description>"[🧸] Arcio"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -203,6 +216,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358622</ID>
               <Description>"[🧸] Dekel"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -215,6 +229,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>357048</ID>
               <Description>"[🧸] Lexi"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -227,6 +242,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358618</ID>
               <Description>"[🧸] ILoveLizzz"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -239,6 +255,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358624</ID>
               <Description>"[🧸] Torgrain"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -251,6 +268,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>359070</ID>
               <Description>"[🧸] Helmy4Ever"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -265,6 +283,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
         <CheatEntry>
           <ID>357037</ID>
           <Description>"[💬] Discord Server"</Description>
+          <LastState/>
           <Color>4080FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -281,6 +300,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
       <ID>358619</ID>
       <Description>"[🌌] FPS"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -289,7 +309,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
       <CheatEntries>
         <CheatEntry>
           <ID>359008</ID>
-          <Description>"[🔗] FPS"</Description>
+          <Description>"[🔗] Unlock FPS"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -301,15 +321,22 @@ synchronize(createTimer, 256, memrec.setActive, false)
       <ID>359254</ID>
       <Description>"[🌌] Combat"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
+{$lua}
+if syntaxcheck then return end
+
+-- Uyarı penceresi göster
+showMessage("Warning: Using Combat Features can make you receive unexpected bans.")
 [disable]
 </AssemblerScript>
       <CheatEntries>
         <CheatEntry>
           <ID>362076</ID>
           <Description>"[🔗] Double Attack"</Description>
+          <LastState/>
           <Color>0000FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -319,64 +346,24 @@ synchronize(createTimer, 256, memrec.setActive, false)
 }
 define(address,"GenshinImpact.exe"+E22334)
 define(bytes,8B 47 30 89 47 2C)
-
 [ENABLE]
-
-
 assert(address,bytes)
 alloc(newmem,$1000,"GenshinImpact.exe"+E22334)
-
 label(code)
 label(return)
-
 newmem:
   db 90 90 90
-
 code:
-  // mov eax,[rdi+30]
   mov [rdi+2C],eax
   jmp return
-
 address:
   jmp newmem
   nop
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // mov eax,[rdi+30]
-  // mov [rdi+2C],eax
-
 dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+E22334
-
-GenshinImpact.exe+E2230B: 89 47 48              - mov [rdi+48],eax
-GenshinImpact.exe+E2230E: 8B 47 50              - mov eax,[rdi+50]
-GenshinImpact.exe+E22311: 89 47 58              - mov [rdi+58],eax
-GenshinImpact.exe+E22314: 48 8B 45 C0           - mov rax,[rbp-40]
-GenshinImpact.exe+E22318: C7 06 1A 00 00 00     - mov [rsi],0000001A
-GenshinImpact.exe+E2231E: 80 7F 73 02           - cmp byte ptr [rdi+73],02
-GenshinImpact.exe+E22322: 66 C7 47 71 00 00     - mov word ptr [rdi+71],0000
-GenshinImpact.exe+E22328: C7 00 FF FF FF FF     - mov [rax],FFFFFFFF
-GenshinImpact.exe+E2232E: 8B 47 14              - mov eax,[rdi+14]
-GenshinImpact.exe+E22331: 89 47 10              - mov [rdi+10],eax
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+E22334: 8B 47 30              - mov eax,[rdi+30]
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+E22337: 89 47 2C              - mov [rdi+2C],eax
-GenshinImpact.exe+E2233A: 8B 47 40              - mov eax,[rdi+40]
-GenshinImpact.exe+E2233D: 89 47 3C              - mov [rdi+3C],eax
-GenshinImpact.exe+E22340: 8B 47 54              - mov eax,[rdi+54]
-GenshinImpact.exe+E22343: 89 47 50              - mov [rdi+50],eax
-GenshinImpact.exe+E22346: C7 47 64 00 00 00 00  - mov [rdi+64],00000000
-GenshinImpact.exe+E2234D: C7 47 20 FF FF FF FF  - mov [rdi+20],FFFFFFFF
-GenshinImpact.exe+E22354: C7 47 6C 00 00 00 00  - mov [rdi+6C],00000000
-GenshinImpact.exe+E2235B: C6 47 75 01           - mov byte ptr [rdi+75],01
-GenshinImpact.exe+E2235F: 75 04                 - jne GenshinImpact.exe+E22365
-}
 </AssemblerScript>
         </CheatEntry>
       </CheatEntries>
@@ -385,6 +372,7 @@ GenshinImpact.exe+E2235F: 75 04                 - jne GenshinImpact.exe+E22365
       <ID>359256</ID>
       <Description>"[🌌] Player"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -395,6 +383,7 @@ GenshinImpact.exe+E2235F: 75 04                 - jne GenshinImpact.exe+E22365
           <ID>352867</ID>
           <Description>"[🔗] View Distance"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -414,7 +403,7 @@ _region:
   addss xmm0,xmm1
   movss xmm6,xmm0
 _origin:
-  reassemble(_hookat+0) //; movss [rbx+a58],xmm6
+  reassemble(_hookat+0)
   jmp _return
 _675852:
   dd (float)65.0
@@ -427,7 +416,7 @@ _return:
   registersymbol(_675852)
 [disable]
 _hookat:
-  db F3 0F 11 83 58 0A 00 00 //; 6.0
+  db F3 0F 11 83 58 0A 00 00
 dealloc(*)
 unregistersymbol(*)
 </AssemblerScript>
@@ -446,6 +435,7 @@ unregistersymbol(*)
           <ID>356941</ID>
           <Description>"[🔗] No Cost"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">[enable]
@@ -455,6 +445,7 @@ unregistersymbol(*)
             <CheatEntry>
               <ID>362226</ID>
               <Description>"[🔗] No Cost Burst"</Description>
+              <LastState/>
               <Color>800000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{
@@ -465,30 +456,23 @@ Author : crash (ctrfan1)
 }
 define(address,$process+A5A3010)
 define(bytes,56 57 48 81 EC 88 00 00 00)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,$process+A5A3010)
-
 newmem:
 newcode:
   mov al,1
   ret
-
 code:
   push rsi
   push rdi
   sub rsp,00000088
   jmp return
-
 address:
   jmp newmem
   nop 4
 return:
-
 [DISABLE]
-
 address:
   db bytes
   // push rsi
@@ -496,38 +480,12 @@ address:
   // sub rsp,00000088
 
 dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+A5A3010
-
-GenshinImpact.exe+A5A2FEE: 74 19                 - je GenshinImpact.exe+A5A3009
-GenshinImpact.exe+A5A2FF0: 48 83 C4 30           - add rsp,30
-GenshinImpact.exe+A5A2FF4: 5E                    - pop rsi
-GenshinImpact.exe+A5A2FF5: E9 F6 DB 67 01        - jmp GenshinImpact.exe+BC20BF0
-GenshinImpact.exe+A5A2FFA: E8 01 97 E9 F5        - call GenshinImpact.exe+43C700
-GenshinImpact.exe+A5A2FFF: E8 FC 96 E9 F5        - call GenshinImpact.exe+43C700
-GenshinImpact.exe+A5A3004: E8 67 91 E9 F5        - call GenshinImpact.exe+43C170
-GenshinImpact.exe+A5A3009: E8 F2 96 E9 F5        - call GenshinImpact.exe+43C700
-GenshinImpact.exe+A5A300E: CC                    - int 3
-GenshinImpact.exe+A5A300F: 90                    - nop
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+A5A3010: 56                    - push rsi
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+A5A3011: 57                    - push rdi
-GenshinImpact.exe+A5A3012: 48 81 EC 88 00 00 00  - sub rsp,00000088
-GenshinImpact.exe+A5A3019: 0F 29 74 24 70        - movaps [rsp+70],xmm6
-GenshinImpact.exe+A5A301E: 48 89 CE              - mov rsi,rcx
-GenshinImpact.exe+A5A3021: 80 3D 0D E5 7E FA 00  - cmp byte ptr [GenshinImpact.exe+4D91535],00
-GenshinImpact.exe+A5A3028: 0F 85 C3 00 00 00     - jne GenshinImpact.exe+A5A30F1
-GenshinImpact.exe+A5A302E: 48 8B 86 B0 01 00 00  - mov rax,[rsi+000001B0]
-GenshinImpact.exe+A5A3035: 48 85 C0              - test rax,rax
-GenshinImpact.exe+A5A3038: 74 20                 - je GenshinImpact.exe+A5A305A
-GenshinImpact.exe+A5A303A: 0F 10 80 D0 06 00 00  - movups xmm0,[rax+000006D0]
-}
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
               <ID>362230</ID>
               <Description>"[🔗] General Stamina"</Description>
+              <LastState/>
               <Color>800000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript Async="1">{
@@ -538,66 +496,27 @@ Author : crash (ctrfan1)
 }
 define(address,$process+8F90E70)
 define(bytes,41 56 56 57 55)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,$process+8F90E70)
-
 newmem:
 newcode:
   cmp rdx,(int)10011
   jne code
   ret
-
 code:
   push r14
   push rsi
   push rdi
   push rbp
   jmp return
-
 address:
   jmp newmem
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // push r14
-  // push rsi
-  // push rdi
-  // push rbp
-
 dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+8F90E70
-
-GenshinImpact.exe+8F90E3B: 48 8B 05 A6 FE E2 FB                 - mov rax,[GenshinImpact.exe+4DC0CE8]
-GenshinImpact.exe+8F90E42: 48 8B 80 D0 DD 01 00                 - mov rax,[rax+0001DDD0]
-GenshinImpact.exe+8F90E49: 48 8B 88 D0 37 20 00                 - mov rcx,[rax+002037D0]
-GenshinImpact.exe+8F90E50: 48 85 C9                             - test rcx,rcx
-GenshinImpact.exe+8F90E53: 74 09                                - je GenshinImpact.exe+8F90E5E
-GenshinImpact.exe+8F90E55: 48 83 C4 28                          - add rsp,28
-GenshinImpact.exe+8F90E59: E9 82 76 5E 03                       - jmp GenshinImpact.exe+C5784E0
-GenshinImpact.exe+8F90E5E: E8 9D B8 4A F7                       - call GenshinImpact.exe+43C700
-GenshinImpact.exe+8F90E63: CC                                   - int 3
-GenshinImpact.exe+8F90E64: 66 66 66 2E 0F 1F 84 00 00 00 00 00  - nop word ptr cs:[rax+rax+00000000]
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+8F90E70: 41 56                                - push r14
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+8F90E72: 56                                   - push rsi
-GenshinImpact.exe+8F90E73: 57                                   - push rdi
-GenshinImpact.exe+8F90E74: 55                                   - push rbp
-GenshinImpact.exe+8F90E75: 53                                   - push rbx
-GenshinImpact.exe+8F90E76: 48 81 EC E0 00 00 00                 - sub rsp,000000E0
-GenshinImpact.exe+8F90E7D: 66 44 0F 29 84 24 D0 00 00 00        - movapd [rsp+000000D0],xmm8
-GenshinImpact.exe+8F90E87: 0F 29 BC 24 C0 00 00 00              - movaps [rsp+000000C0],xmm7
-GenshinImpact.exe+8F90E8F: 66 0F 29 B4 24 B0 00 00 00           - movapd [rsp+000000B0],xmm6
-GenshinImpact.exe+8F90E98: 45 89 CE                             - mov r14d,r9d
-GenshinImpact.exe+8F90E9B: 4C 89 C3                             - mov rbx,r8
-}
 </AssemblerScript>
             </CheatEntry>
           </CheatEntries>
@@ -606,6 +525,7 @@ GenshinImpact.exe+8F90E9B: 4C 89 C3                             - mov rbx,r8
           <ID>362278</ID>
           <Description>"[🔗] God Mode"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{
@@ -616,79 +536,36 @@ Author : crash (ctrfan1)
 }
 define(address,$process+E72BF00)
 define(bytes,41 56 56 57 53)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,$process+E72BF00)
-
 newmem:
   cmp rdx, dword ptr [$process+4D10A38]
   jne code
-
 newcode:
   cmp byte ptr [byte_0],01
   jne newcode_1
 
   mov rdx, dword ptr [rcx+14]
-
 code:
   push r14
   push rsi
   push rdi
   push rbx
   jmp return
-
 newcode_1:
   ret
-
 byte_0:
   db 00
-
 address:
   jmp newmem
-
 return:
   registersymbol(byte_0)
-
 [DISABLE]
-
 address:
   db bytes
-  // push r14
-  // push rsi
-  // push rdi
-  // push rbx
-
 unregistersymbol(byte_0)
 dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+E72BF00
-
-GenshinImpact.exe+E72BECC: 4C 89 E1                                   - mov rcx,r12
-GenshinImpact.exe+E72BECF: E8 2C 1E F5 00                             - call GenshinImpact.exe+F67DD00
-GenshinImpact.exe+E72BED4: 48 85 C0                                   - test rax,rax
-GenshinImpact.exe+E72BED7: 0F 85 8E FE FF FF                          - jne GenshinImpact.exe+E72BD6B
-GenshinImpact.exe+E72BEDD: E9 9F FE FF FF                             - jmp GenshinImpact.exe+E72BD81
-GenshinImpact.exe+E72BEE2: E8 09 36 D7 F1                             - call GenshinImpact.exe+49F4F0
-GenshinImpact.exe+E72BEE7: E9 E4 FE FF FF                             - jmp GenshinImpact.exe+E72BDD0
-GenshinImpact.exe+E72BEEC: E8 0F 08 D1 F1                             - call GenshinImpact.exe+43C700
-GenshinImpact.exe+E72BEF1: CC                                         - int 3
-GenshinImpact.exe+E72BEF2: 66 66 66 66 66 2E 0F 1F 84 00 00 00 00 00  - nop word ptr cs:[rax+rax+00000000]
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+E72BF00: 41 56                                      - push r14
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+E72BF02: 56                                         - push rsi
-GenshinImpact.exe+E72BF03: 57                                         - push rdi
-GenshinImpact.exe+E72BF04: 53                                         - push rbx
-GenshinImpact.exe+E72BF05: 48 83 EC 28                                - sub rsp,28
-GenshinImpact.exe+E72BF09: 4D 89 C6                                   - mov r14,r8
-GenshinImpact.exe+E72BF0C: 89 D3                                      - mov ebx,edx
-GenshinImpact.exe+E72BF0E: 48 89 CF                                   - mov rdi,rcx
-GenshinImpact.exe+E72BF11: 80 3D 83 3F 69 F6 00                       - cmp byte ptr [GenshinImpact.exe+4DBFE9B],00
-GenshinImpact.exe+E72BF18: 75 4C                                      - jne GenshinImpact.exe+E72BF66
-GenshinImpact.exe+E72BF1A: 48 8B 0D C7 B4 79 F6                       - mov rcx,[GenshinImpact.exe+4EC73E8]
-}
 </AssemblerScript>
           <CheatEntries>
             <CheatEntry>
@@ -707,6 +584,7 @@ GenshinImpact.exe+E72BF1A: 48 8B 0D C7 B4 79 F6                       - mov rcx,
         <CheatEntry>
           <ID>362262</ID>
           <Description>"[🔗] Always Elemental Sight"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{
@@ -717,18 +595,162 @@ Author : crash (ctrfan1)
 }
 define(address,$process+C95915D)
 define(bytes,80 BE A0 00 00 00 00)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,$process+C95915D)
+newmem:
+newcode:
+  cmp byte ptr [rsi+000000A0],01
+code:
+  jmp return
+address:
+  jmp newmem
+  nop 2
+return:
+[DISABLE]
+address:
+  db bytes
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362228</ID>
+          <Description>"[🔗] No Skill Cooldown"</Description>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{
+Game   : GenshinImpact.exe
+Version: 6.5
+Date   : xxxx-xx-xx
+Author : crash (ctrfan1)
+}
+define(address,$process+A5B0280)
+define(bytes,55 56 48 81 EC 98 00 00 00)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,$process+A5B0280)
+newmem:
+newcode:
+  mov eax,(float)123456789.0
+  movd xmm0,eax
+  mulss xmm1,xmm0
+code:
+  push rbp
+  push rsi
+  sub rsp,00000098
+  jmp return
+address:
+  jmp newmem
+  nop 4
+return:
+[DISABLE]
+address:
+  db bytes
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>356939</ID>
+          <Description>"[🔗] No Fall Damage"</Description>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript Async="1">{
+Game   : GenshinImpact.exe
+Version: 6.5
+Date   : xxxx-xx-xx
+Author : crash (ctrfan1)
+}
+define(address,$process+9505C40)
+define(bytes,41 56 56 57 53)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,$process+9505C40)
+newmem:
+newcode:
+  ret
+code:
+  push r14
+  push rsi
+  push rdi
+  push rbx
+  jmp return
+address:
+  jmp newmem
+return:
+[DISABLE]
+address:
+  db bytes
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362285</ID>
+          <Description>"[🔗] Bunny Hop"</Description>
+          <Options moHideChildren="1"/>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{
+Game   : GenshinImpact.exe
+Version:
+Date   : 2026-04-21
+Author : Columbina
+}
+define(address,"GenshinImpact.exe"+7305013)
+define(bytes,74 5F 48 8B 06)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,"GenshinImpact.exe"+7305013)
+label(code)
+label(return)
+newmem:
+code:
+  jne GenshinImpact.exe+7305074
+  mov rax,[rsi]
+  jmp return
+address:
+  jmp newmem
+return:
+[DISABLE]
+address:
+  db bytes
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362304</ID>
+          <Description>"[🔗] Run on Water"</Description>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : GenshinImpact.exe
+  Version: 
+  Date   : 2026-04-22
+  Author : Columbina
+}
+
+define(address,"GenshinImpact.exe"+B5133E0)
+define(bytes,56 57 53 48 83 EC 20)
 
 [ENABLE]
 
 assert(address,bytes)
-alloc(newmem,$1000,$process+C95915D)
+alloc(newmem,$1000,"GenshinImpact.exe"+B5133E0)
+
+label(code)
+label(return)
 
 newmem:
-newcode:
-  cmp byte ptr [rsi+000000A0],01
+mov al,1
+ret
 
 code:
-  // cmp byte ptr [rsi+000000A0],00
+  push rsi
+  push rdi
+  push rbx
+  sub rsp,20
   jmp return
 
 address:
@@ -740,183 +762,39 @@ return:
 
 address:
   db bytes
-  // cmp byte ptr [rsi+000000A0],00
-
-dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+C95915D
-
-GenshinImpact.exe+C959132: 48 85 C0                 - test rax,rax
-GenshinImpact.exe+C959135: 74 1E                    - je GenshinImpact.exe+C959155
-GenshinImpact.exe+C959137: 48 8B 15 42 0E 49 F8     - mov rdx,[GenshinImpact.exe+4DE9F80]
-GenshinImpact.exe+C95913E: 48 8B 08                 - mov rcx,[rax]
-GenshinImpact.exe+C959141: 0F B6 AA C4 00 00 00     - movzx ebp,byte ptr [rdx+000000C4]
-GenshinImpact.exe+C959148: 40 38 A9 C4 00 00 00     - cmp [rcx+000000C4],bpl
-GenshinImpact.exe+C95914F: 0F 83 4B 08 00 00        - jae GenshinImpact.exe+C9599A0
-GenshinImpact.exe+C959155: 31 C9                    - xor ecx,ecx
-GenshinImpact.exe+C959157: 48 85 C9                 - test rcx,rcx
-GenshinImpact.exe+C95915A: 0F 94 C0                 - sete al
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+C95915D: 80 BE A0 00 00 00 00     - cmp byte ptr [rsi+000000A0],00
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+C959164: F3 0F 10 BE 98 00 00 00  - movss xmm7,[rsi+00000098]
-GenshinImpact.exe+C95916C: 74 5A                    - je GenshinImpact.exe+C9591C8
-GenshinImpact.exe+C95916E: F3 0F 10 05 5E 6F 46 F5  - movss xmm0,[GenshinImpact.exe+1DC00D4]
-GenshinImpact.exe+C959176: 0F 2E C7                 - ucomiss xmm0,xmm7
-GenshinImpact.exe+C959179: 0F 86 99 00 00 00        - jbe GenshinImpact.exe+C959218
-GenshinImpact.exe+C95917F: F3 0F 59 35 6D 34 49 F5  - mulss xmm6,[GenshinImpact.exe+1DEC5F4]
-GenshinImpact.exe+C959187: 0F 57 C9                 - xorps xmm1,xmm1
-GenshinImpact.exe+C95918A: F3 0F 58 F7              - addss xmm6,xmm7
-GenshinImpact.exe+C95918E: F3 0F C2 F9 00           - cmpeqss xmm7,xmm1
-GenshinImpact.exe+C959193: 66 0F 7E FD              - movd ebp,xmm7
-}
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>362228</ID>
-          <Description>"[🔗] No Skill Cooldown"</Description>
-          <Color>008000</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>{
-Game   : GenshinImpact.exe
-Version: 6.5
-Date   : xxxx-xx-xx
-Author : crash (ctrfan1)
-}
-define(address,$process+A5B0280)
-define(bytes,55 56 48 81 EC 98 00 00 00)
-
-[ENABLE]
-
-assert(address,bytes)
-alloc(newmem,$1000,$process+A5B0280)
-
-newmem:
-newcode:
-  mov eax,(float)123456789.0
-  movd xmm0,eax
-  mulss xmm1,xmm0
-
-code:
-  push rbp
-  push rsi
-  sub rsp,00000098
-  jmp return
-
-address:
-  jmp newmem
-  nop 4
-return:
-
-[DISABLE]
-
-address:
-  db bytes
-  // push rbp
-  // push rsi
-  // sub rsp,00000098
-
-dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+A5B0280
-
-GenshinImpact.exe+A5B0270: 48 83 C4 50              - add rsp,50
-GenshinImpact.exe+A5B0274: 5B                       - pop rbx
-GenshinImpact.exe+A5B0275: 5F                       - pop rdi
-GenshinImpact.exe+A5B0276: 5E                       - pop rsi
-GenshinImpact.exe+A5B0277: 41 5C                    - pop r12
-GenshinImpact.exe+A5B0279: 41 5E                    - pop r14
-GenshinImpact.exe+A5B027B: 41 5F                    - pop r15
-GenshinImpact.exe+A5B027D: 5D                       - pop rbp
-GenshinImpact.exe+A5B027E: C3                       - ret
-GenshinImpact.exe+A5B027F: 90                       - nop
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+A5B0280: 55                       - push rbp
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+A5B0281: 56                       - push rsi
-GenshinImpact.exe+A5B0282: 48 81 EC 98 00 00 00     - sub rsp,00000098
-GenshinImpact.exe+A5B0289: 48 8D AC 24 80 00 00 00  - lea rbp,[rsp+00000080]
-GenshinImpact.exe+A5B0291: 0F 29 75 00              - movaps [rbp+00],xmm6
-GenshinImpact.exe+A5B0295: 48 C7 45 F0 FE FF FF FF  - mov qword ptr [rbp-10],FFFFFFFFFFFFFFFE
-GenshinImpact.exe+A5B029D: 0F 28 F1                 - movaps xmm6,xmm1
-GenshinImpact.exe+A5B02A0: 48 89 CA                 - mov rdx,rcx
-GenshinImpact.exe+A5B02A3: 80 3D AF 12 7E FA 00     - cmp byte ptr [GenshinImpact.exe+4D91559],00
-GenshinImpact.exe+A5B02AA: 0F 85 85 00 00 00        - jne GenshinImpact.exe+A5B0335
-GenshinImpact.exe+A5B02B0: 48 8B 82 C8 02 00 00     - mov rax,[rdx+000002C8]
-}
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>356939</ID>
-          <Description>"[🔗] No Fall Damage"</Description>
-          <Color>008000</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript Async="1">{
-Game   : GenshinImpact.exe
-Version: 6.5
-Date   : xxxx-xx-xx
-Author : crash (ctrfan1)
-}
-define(address,$process+9505C40)
-define(bytes,41 56 56 57 53)
-
-[ENABLE]
-
-assert(address,bytes)
-alloc(newmem,$1000,$process+9505C40)
-
-newmem:
-newcode:
-  ret
-
-code:
-  push r14
-  push rsi
-  push rdi
-  push rbx
-  jmp return
-
-address:
-  jmp newmem
-
-return:
-
-[DISABLE]
-
-address:
-  db bytes
-  // push r14
   // push rsi
   // push rdi
   // push rbx
+  // sub rsp,20
 
 dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+9505C40
 
-GenshinImpact.exe+9505C10: 48 8B 80 D0 DD 01 00        - mov rax,[rax+0001DDD0]
-GenshinImpact.exe+9505C17: 48 8B 88 F8 1A 13 00        - mov rcx,[rax+00131AF8]
-GenshinImpact.exe+9505C1E: 48 85 C9                    - test rcx,rcx
-GenshinImpact.exe+9505C21: 74 0E                       - je GenshinImpact.exe+9505C31
-GenshinImpact.exe+9505C23: 48 83 C4 28                 - add rsp,28
-GenshinImpact.exe+9505C27: E9 C4 AF 71 02              - jmp GenshinImpact.exe+BC20BF0
-GenshinImpact.exe+9505C2C: E8 CF 6A F3 F6              - call GenshinImpact.exe+43C700
-GenshinImpact.exe+9505C31: E8 CA 6A F3 F6              - call GenshinImpact.exe+43C700
-GenshinImpact.exe+9505C36: CC                          - int 3
-GenshinImpact.exe+9505C37: 66 0F 1F 84 00 00 00 00 00  - nop word ptr [rax+rax+00000000]
+{
+// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+B5133E0
+
+GenshinImpact.exe+B5133C0: 74 14                 - je GenshinImpact.exe+B5133D6
+GenshinImpact.exe+B5133C2: F3 0F 11 5C 24 20     - movss [rsp+20],xmm3
+GenshinImpact.exe+B5133C8: 0F 28 DA              - movaps xmm3,xmm2
+GenshinImpact.exe+B5133CB: E8 E0 BF AA 00        - call GenshinImpact.exe+BFBF3B0
+GenshinImpact.exe+B5133D0: 90                    - nop 
+GenshinImpact.exe+B5133D1: 48 83 C4 28           - add rsp,28
+GenshinImpact.exe+B5133D5: C3                    - ret 
+GenshinImpact.exe+B5133D6: E8 25 93 F2 F4        - call GenshinImpact.exe+43C700
+GenshinImpact.exe+B5133DB: CC                    - int 3 
+GenshinImpact.exe+B5133DC: 0F 1F 40 00           - nop dword ptr [rax+00]
 // ---------- INJECTING HERE ----------
-GenshinImpact.exe+9505C40: 41 56                       - push r14
+GenshinImpact.exe+B5133E0: 56                    - push rsi
 // ---------- DONE INJECTING  ----------
-GenshinImpact.exe+9505C42: 56                          - push rsi
-GenshinImpact.exe+9505C43: 57                          - push rdi
-GenshinImpact.exe+9505C44: 53                          - push rbx
-GenshinImpact.exe+9505C45: 48 81 EC E8 00 00 00        - sub rsp,000000E8
-GenshinImpact.exe+9505C4C: 0F 29 BC 24 D0 00 00 00     - movaps [rsp+000000D0],xmm7
-GenshinImpact.exe+9505C54: 0F 29 B4 24 C0 00 00 00     - movaps [rsp+000000C0],xmm6
-GenshinImpact.exe+9505C5C: 0F 28 F2                    - movaps xmm6,xmm2
-GenshinImpact.exe+9505C5F: 49 89 D6                    - mov r14,rdx
-GenshinImpact.exe+9505C62: 48 89 CE                    - mov rsi,rcx
-GenshinImpact.exe+9505C65: 0F 57 C0                    - xorps xmm0,xmm0
+GenshinImpact.exe+B5133E1: 57                    - push rdi
+GenshinImpact.exe+B5133E2: 53                    - push rbx
+GenshinImpact.exe+B5133E3: 48 83 EC 20           - sub rsp,20
+GenshinImpact.exe+B5133E7: 48 89 CE              - mov rsi,rcx
+GenshinImpact.exe+B5133EA: 80 3D A1 E8 83 F9 00  - cmp byte ptr [GenshinImpact.exe+4D51C92],00
+GenshinImpact.exe+B5133F1: 75 3E                 - jne GenshinImpact.exe+B513431
+GenshinImpact.exe+B5133F3: 48 8B 0D 66 68 8D F9  - mov rcx,[GenshinImpact.exe+4DE9C60]
+GenshinImpact.exe+B5133FA: 80 B9 C7 00 00 00 00  - cmp byte ptr [rcx+000000C7],00
+GenshinImpact.exe+B513401: 74 5B                 - je GenshinImpact.exe+B51345E
+GenshinImpact.exe+B513403: B9 EA 0F 00 00        - mov ecx,00000FEA
 }
 </AssemblerScript>
         </CheatEntry>
@@ -926,6 +804,7 @@ GenshinImpact.exe+9505C65: 0F 57 C0                    - xorps xmm0,xmm0
       <ID>359258</ID>
       <Description>"[🌌] World"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -933,91 +812,17 @@ GenshinImpact.exe+9505C65: 0F 57 C0                    - xorps xmm0,xmm0
 </AssemblerScript>
       <CheatEntries>
         <CheatEntry>
-          <ID>362249</ID>
-          <Description>"[🔗] Loot Features"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
-          <Color>408000</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript Async="1">[enable]
-[disable]
-</AssemblerScript>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>359396</ID>
-              <Description>"[🔗] Loot Range"</Description>
-              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <Color>A00000</Color>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
-  Version:
-  Date   : 2026-04-17
-  Author : Columbina
-}
-
-define(address,"GenshinImpact.exe"+8D6C122)
-define(bytes,66 41 0F 6E 43 1C)
-
-[ENABLE]
-
-assert(address,bytes)
-alloc(newmem,$1000,"GenshinImpact.exe"+8D6C122)
-
-label(code)
-label(return)
-
-newmem:
-fld dword ptr [LootRange]
-fstp dword ptr [r11+1C]
-
-code:
-  movd xmm0,[r11+1C] // +10 has become +1C, follow the new offset (yes the +&lt;are_offset&gt;]
-  jmp return
-
-LootRange:
-  dd (float)30
-  // dd: beacuse its a 4-byte (float = 4-byte), for 0 or 1, its db or 1-byte
-
-address:
-  jmp newmem
-  nop
-
-return:
-  registersymbol(LootRange) // so we can configure from CE
-
-[DISABLE]
-
-address:
-  db bytes
-  // movd xmm0,[r11+1C]
-
-unregistersymbol(LootRange) // to clean-up, not necessary but good practice
-dealloc(newmem)
-</AssemblerScript>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>359397</ID>
-                  <Description>"[⚙️] Distance"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <Color>000000</Color>
-                  <VariableType>Float</VariableType>
-                  <Address>LootRange</Address>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
           <ID>362236</ID>
           <Description>"[🔗] Game Speed"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>0000FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
   Version: 6.x
   Date   : 2025-09-11
-  Author : pinky
+  Author : crash
 }
-
 [ENABLE]
 aobscanregion(_hookatSpeed,base,base * 2,F3 0F 10 AB 04 01 00 00) // should be unique
 alloc(newmem,$1000,_hookatSpeed)
@@ -1027,19 +832,15 @@ label(_590205)
 newmem:
   cmp byte ptr [_590205],01
   jne code
-
   fld dword ptr [_902052]
   fstp dword ptr [rbx+104]
-
 code:
   movss xmm5,[rbx+00000104]
   jmp return
   _590205:
   db 1
-
 _902052:
   dd (float)1.0
-
 _hookatSpeed:
   jmp newmem
   nop 3
@@ -1066,108 +867,59 @@ dealloc(*)
           <ID>362282</ID>
           <Description>"[🔗] No Enemy Attack"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
   Version:
   Date   : 2026-04-16
   Author : Columbina
-
-  This script does blah blah blah
 }
-
 define(address,"GenshinImpact.exe"+D9AE830)
 define(bytes,56 57 48 83 EC 28)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,"GenshinImpact.exe"+D9AE830)
-
 label(code)
 label(return)
-
 newmem:
 ret
-
 code:
   push rsi
   push rdi
   sub rsp,28
   jmp return
-
 address:
   jmp newmem
   nop
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // push rsi
-  // push rdi
-  // sub rsp,28
-
 dealloc(newmem)
-
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+D9AE830
-
-GenshinImpact.exe+D9AE7FD: 41 89 E9                          - mov r9d,ebp
-GenshinImpact.exe+D9AE800: E8 EB 27 3E FE                    - call GenshinImpact.exe+BD90FF0
-GenshinImpact.exe+D9AE805: 48 8B 8E 18 01 00 00              - mov rcx,[rsi+00000118]
-GenshinImpact.exe+D9AE80C: 48 85 C9                          - test rcx,rcx
-GenshinImpact.exe+D9AE80F: 0F 85 EC FE FF FF                 - jne GenshinImpact.exe+D9AE701
-GenshinImpact.exe+D9AE815: E9 27 FF FF FF                    - jmp GenshinImpact.exe+D9AE741
-GenshinImpact.exe+D9AE81A: E8 E1 DE A8 F2                    - call GenshinImpact.exe+43C700
-GenshinImpact.exe+D9AE81F: E8 DC DE A8 F2                    - call GenshinImpact.exe+43C700
-GenshinImpact.exe+D9AE824: CC                                - int 3
-GenshinImpact.exe+D9AE825: 66 66 2E 0F 1F 84 00 00 00 00 00  - nop word ptr cs:[rax+rax+00000000]
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+D9AE830: 56                                - push rsi
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+D9AE831: 57                                - push rdi
-GenshinImpact.exe+D9AE832: 48 83 EC 28                       - sub rsp,28
-GenshinImpact.exe+D9AE836: 89 D6                             - mov esi,edx
-GenshinImpact.exe+D9AE838: 48 89 CF                          - mov rdi,rcx
-GenshinImpact.exe+D9AE83B: 80 3D 81 1D 3D F7 00              - cmp byte ptr [GenshinImpact.exe+4D805C3],00
-GenshinImpact.exe+D9AE842: 0F 85 99 00 00 00                 - jne GenshinImpact.exe+D9AE8E1
-GenshinImpact.exe+D9AE848: 48 8B 47 28                       - mov rax,[rdi+28]
-GenshinImpact.exe+D9AE84C: 48 85 C0                          - test rax,rax
-GenshinImpact.exe+D9AE84F: 0F 84 B7 00 00 00                 - je GenshinImpact.exe+D9AE90C
-GenshinImpact.exe+D9AE855: 80 B8 5E 03 00 00 00              - cmp byte ptr [rax+0000035E],00
-}
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>362283</ID>
           <Description>"[🔗] No Area Restriction"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
   Version:
   Date   : 2026-04-16
   Author : Columbina
-
-  This script does blah blah blah
 }
-
 define(address,"GenshinImpact.exe"+7F431C0)
 define(bytes,56 57 55 53 48 81 EC D8 00 00 00)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,"GenshinImpact.exe"+7F431C0)
-
 label(code)
 label(return)
-
 newmem:
 ret
-
 code:
   push rsi
   push rdi
@@ -1175,130 +927,192 @@ code:
   push rbx
   sub rsp,000000D8
   jmp return
-
 address:
   jmp newmem
   nop 6
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // push rsi
-  // push rdi
-  // push rbp
-  // push rbx
-  // sub rsp,000000D8
-
 dealloc(newmem)
-
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+7F431C0
-
-GenshinImpact.exe+7F431AE: 89 D8                       - mov eax,ebx
-GenshinImpact.exe+7F431B0: 48 83 C4 38                 - add rsp,38
-GenshinImpact.exe+7F431B4: 5B                          - pop rbx
-GenshinImpact.exe+7F431B5: 5D                          - pop rbp
-GenshinImpact.exe+7F431B6: 5F                          - pop rdi
-GenshinImpact.exe+7F431B7: 5E                          - pop rsi
-GenshinImpact.exe+7F431B8: C3                          - ret
-GenshinImpact.exe+7F431B9: E8 42 95 4F F8              - call GenshinImpact.exe+43C700
-GenshinImpact.exe+7F431BE: CC                          - int 3
-GenshinImpact.exe+7F431BF: 90                          - nop
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+7F431C0: 56                          - push rsi
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+7F431C1: 57                          - push rdi
-GenshinImpact.exe+7F431C2: 55                          - push rbp
-GenshinImpact.exe+7F431C3: 53                          - push rbx
-GenshinImpact.exe+7F431C4: 48 81 EC D8 00 00 00        - sub rsp,000000D8
-GenshinImpact.exe+7F431CB: 44 0F 29 94 24 C0 00 00 00  - movaps [rsp+000000C0],xmm10
-GenshinImpact.exe+7F431D4: 44 0F 29 8C 24 B0 00 00 00  - movaps [rsp+000000B0],xmm9
-GenshinImpact.exe+7F431DD: 44 0F 29 84 24 A0 00 00 00  - movaps [rsp+000000A0],xmm8
-GenshinImpact.exe+7F431E6: 0F 29 BC 24 90 00 00 00     - movaps [rsp+00000090],xmm7
-GenshinImpact.exe+7F431EE: 0F 29 B4 24 80 00 00 00     - movaps [rsp+00000080],xmm6
-GenshinImpact.exe+7F431F6: 48 89 CE                    - mov rsi,rcx
-}
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>362284</ID>
           <Description>"[🔗] Lava Bathtub"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
   Version:
   Date   : 2026-04-16
   Author : Columbina
-
-  This script does blah blah blah
 }
-
 define(address,"GenshinImpact.exe"+E964680)
 define(bytes,41 57 41 56 41 55)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,"GenshinImpact.exe"+E964680)
-
 label(code)
 label(return)
-
 newmem:
 ret
-
 code:
   push r15
   push r14
   push r13
   jmp return
-
 address:
   jmp newmem
   nop
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // push r15
-  // push r14
-  // push r13
-
 dealloc(newmem)
-
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+E964680
-
-GenshinImpact.exe+E964656: 74 1C              - je GenshinImpact.exe+E964674
-GenshinImpact.exe+E964658: 48 89 FA           - mov rdx,rdi
-GenshinImpact.exe+E96465B: E8 C0 75 8A FD     - call GenshinImpact.exe+C20BC20
-GenshinImpact.exe+E964660: E9 0A FD FF FF     - jmp GenshinImpact.exe+E96436F
-GenshinImpact.exe+E964665: E8 96 80 AD F1     - call GenshinImpact.exe+43C700
-GenshinImpact.exe+E96466A: E8 91 80 AD F1     - call GenshinImpact.exe+43C700
-GenshinImpact.exe+E96466F: E8 8C 80 AD F1     - call GenshinImpact.exe+43C700
-GenshinImpact.exe+E964674: E8 87 80 AD F1     - call GenshinImpact.exe+43C700
-GenshinImpact.exe+E964679: CC                 - int 3
-GenshinImpact.exe+E96467A: 66 0F 1F 44 00 00  - nop word ptr [rax+rax+00]
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+E964680: 41 57              - push r15
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+E964682: 41 56              - push r14
-GenshinImpact.exe+E964684: 41 55              - push r13
-GenshinImpact.exe+E964686: 41 54              - push r12
-GenshinImpact.exe+E964688: 56                 - push rsi
-GenshinImpact.exe+E964689: 57                 - push rdi
-GenshinImpact.exe+E96468A: 53                 - push rbx
-GenshinImpact.exe+E96468B: 48 83 EC 70        - sub rsp,70
-GenshinImpact.exe+E96468F: 4D 89 CF           - mov r15,r9
-GenshinImpact.exe+E964692: 4D 89 C6           - mov r14,r8
-GenshinImpact.exe+E964695: 48 89 D3           - mov rbx,rdx
-}
 </AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362293</ID>
+          <Description>"[🔗] Loot Features"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript Async="1">[enable]
+[disable]
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>359396</ID>
+              <Description>"[🔗] Loot Range"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
+              <Color>A00000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
+  Version:
+  Date   : 2026-04-17
+  Author : Columbina
+}
+define(address,"GenshinImpact.exe"+8D6C122)
+define(bytes,66 41 0F 6E 43 1C)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,"GenshinImpact.exe"+8D6C122)
+label(code)
+label(return)
+newmem:
+fld dword ptr [LootRange]
+fstp dword ptr [r11+1C]
+code:
+  movd xmm0,[r11+1C]
+  jmp return
+LootRange:
+  dd (float)30
+address:
+  jmp newmem
+  nop
+return:
+  registersymbol(LootRange)
+[DISABLE]
+address:
+  db bytes
+unregistersymbol(LootRange)
+dealloc(newmem)
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>359397</ID>
+                  <Description>"[⚙️] Distance"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>LootRange</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>362238</ID>
+              <Description>"[🔗] Auto Loot"</Description>
+              <LastState/>
+              <Color>800000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+math.randomseed(os.time() + tonumber(tostring(os.clock()):reverse()))
+local alist = getAddressList()
+if alist.Count &gt;= 1 then
+   local req = alist.getMemoryRecordByDescription("ACTIVATE")
+   if req ~= nil then
+      req.Active = true
+   end
+end
+local targetPID = getOpenedProcessID()
+isAPRunning = false
+function APAutoF(thread)
+    while isAPRunning do
+       local fgID  = getForegroundProcess()
+       if fgID == targetPID then
+            if readInteger("pick") ~= 0 then
+
+                  keyDown(VK_F)
+                  sleep(150+math.random(-5,20))
+                  keyUp(VK_F)
+                  sleep(140+math.random(-5,17))
+                  end
+        else
+        sleep(100+math.random(-5,17))
+        end
+        if process == nil or readInteger(process) == 0 then
+            isAPRunning = false
+        end
+    end
+    thread.terminate()
+end
+function SetAPAutoF(bool)
+    if not bool then
+        isAPRunning = false
+    else
+        if not isAPRunning then
+            isAPRunning = true
+            createThread(APAutoF)
+        end
+    end
+end
+{$asm}
+define(address,"GenshinImpact.exe"+E47C2ED)
+define(bytes,8B 40 18 FF C8)
+[ENABLE]
+registersymbol(pick)
+alloc(pick,16)
+assert(address,bytes)
+alloc(newmem,$1000,address)
+label(code)
+label(return)
+newmem:
+code:
+  mov eax,[rax+18]
+  mov [pick],eax
+  dec eax
+  jmp return
+address:
+  jmp newmem
+return:
+{$lua}
+SetAPAutoF(true)
+{$asm}
+[DISABLE]
+{$lua}
+SetAPAutoF(false)
+{$asm}
+address:
+  db bytes
+unregistersymbol(*)
+dealloc(*)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -1306,6 +1120,7 @@ GenshinImpact.exe+E964695: 48 89 D3           - mov rbx,rdx
       <ID>362243</ID>
       <Description>"[🌌] Visuals"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -1315,6 +1130,7 @@ GenshinImpact.exe+E964695: 48 89 D3           - mov rbx,rdx
         <CheatEntry>
           <ID>359404</ID>
           <Description>"[🔗] Hide Grass"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -1335,229 +1151,218 @@ _hookat:
         <CheatEntry>
           <ID>362253</ID>
           <Description>"[🔗] Hide Fog"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{
 Game   : GenshinImpact.exe
 Version: 6.5
 Date   : xxxx-xx-xx
-Author : crash (ctrfan1)
+Author : crash
 }
 define(address,$process+15CF220)
 define(bytes,0F B6 05 AD C3 57 03)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,$process+15CF220)
-
 label(code)
 label(return)
-
 newmem:
 newcode:
   xor eax,eax
-
 code:
-  // movzx eax,byte ptr [GenshinImpact.exe+4B4B5D4]
   jmp return
-
 address:
   jmp newmem
   nop 2
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // movzx eax,byte ptr [GenshinImpact.exe+4B4B5D4]
-
 dealloc(newmem)
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+15CF220
-
-GenshinImpact.exe+15CF20F: CC                       - int 3
-GenshinImpact.exe+15CF210: F3 0F 11 05 B8 C3 57 03  - movss [GenshinImpact.exe+4B4B5D0],xmm0
-GenshinImpact.exe+15CF218: C3                       - ret
-GenshinImpact.exe+15CF219: CC                       - int 3
-GenshinImpact.exe+15CF21A: CC                       - int 3
-GenshinImpact.exe+15CF21B: CC                       - int 3
-GenshinImpact.exe+15CF21C: CC                       - int 3
-GenshinImpact.exe+15CF21D: CC                       - int 3
-GenshinImpact.exe+15CF21E: CC                       - int 3
-GenshinImpact.exe+15CF21F: CC                       - int 3
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+15CF220: 0F B6 05 AD C3 57 03     - movzx eax,byte ptr [GenshinImpact.exe+4B4B5D4]
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+15CF227: C3                       - ret
-GenshinImpact.exe+15CF228: CC                       - int 3
-GenshinImpact.exe+15CF229: CC                       - int 3
-GenshinImpact.exe+15CF22A: CC                       - int 3
-GenshinImpact.exe+15CF22B: CC                       - int 3
-GenshinImpact.exe+15CF22C: CC                       - int 3
-GenshinImpact.exe+15CF22D: CC                       - int 3
-GenshinImpact.exe+15CF22E: CC                       - int 3
-GenshinImpact.exe+15CF22F: CC                       - int 3
-GenshinImpact.exe+15CF230: 88 0D 9E C3 57 03        - mov [GenshinImpact.exe+4B4B5D4],cl
-}
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>362280</ID>
           <Description>"[🔗] Hide Damage"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
   Version:
   Date   : 2026-04-16
   Author : Columbina
-
-  This script does blah blah blah
 }
-
 define(address,"GenshinImpact.exe"+115094E0)
 define(bytes,41 56 56 57 55)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,"GenshinImpact.exe"+115094E0)
-
 label(code)
 label(return)
-
 newmem:
 ret
-
 code:
   push r14
   push rsi
   push rdi
   push rbp
   jmp return
-
 address:
   jmp newmem
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // push r14
-  // push rsi
-  // push rdi
-  // push rbp
-
 dealloc(newmem)
-
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+115094E0
-
-GenshinImpact.exe+115094C8: 48 8B 00              - mov rax,[rax]
-GenshinImpact.exe+115094CB: 48 89 45 10           - mov [rbp+10],rax
-GenshinImpact.exe+115094CF: 48 8D 05 85 FF FF FF  - lea rax,[GenshinImpact.exe+1150945B]
-GenshinImpact.exe+115094D6: 48 83 C4 28           - add rsp,28
-GenshinImpact.exe+115094DA: 5B                    - pop rbx
-GenshinImpact.exe+115094DB: 5F                    - pop rdi
-GenshinImpact.exe+115094DC: 5E                    - pop rsi
-GenshinImpact.exe+115094DD: 5D                    - pop rbp
-GenshinImpact.exe+115094DE: C3                    - ret
-GenshinImpact.exe+115094DF: 90                    - nop
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+115094E0: 41 56                 - push r14
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+115094E2: 56                    - push rsi
-GenshinImpact.exe+115094E3: 57                    - push rdi
-GenshinImpact.exe+115094E4: 55                    - push rbp
-GenshinImpact.exe+115094E5: 53                    - push rbx
-GenshinImpact.exe+115094E6: 48 81 EC 80 00 00 00  - sub rsp,00000080
-GenshinImpact.exe+115094ED: 4C 89 C7              - mov rdi,r8
-GenshinImpact.exe+115094F0: 48 89 D3              - mov rbx,rdx
-GenshinImpact.exe+115094F3: 48 89 CE              - mov rsi,rcx
-GenshinImpact.exe+115094F6: 80 3D 28 5D 88 F3 00  - cmp byte ptr [GenshinImpact.exe+4D8F225],00
-GenshinImpact.exe+115094FD: 0F 85 ED 00 00 00     - jne GenshinImpact.exe+115095F0
-}
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>362281</ID>
           <Description>"[🔗] Hide Reaction"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
   Version:
   Date   : 2026-04-16
   Author : Columbina
-
-  This script does blah blah blah
 }
-
 define(address,"GenshinImpact.exe"+11509840)
 define(bytes,41 57 41 56 56)
-
 [ENABLE]
-
 assert(address,bytes)
 alloc(newmem,$1000,"GenshinImpact.exe"+11509840)
-
 label(code)
 label(return)
-
 newmem:
 ret
-
 code:
   push r15
   push r14
   push rsi
   jmp return
-
 address:
   jmp newmem
 return:
-
 [DISABLE]
-
 address:
   db bytes
-  // push r15
-  // push r14
-  // push rsi
-
 dealloc(newmem)
-
-{
-// ORIGINAL CODE - INJECTION POINT: GenshinImpact.exe+11509840
-
-GenshinImpact.exe+1150980B: E8 B0 C8 A3 FA                                - call GenshinImpact.exe+BF460C0
-GenshinImpact.exe+11509810: 89 C2                                         - mov edx,eax
-GenshinImpact.exe+11509812: E9 5D FF FF FF                                - jmp GenshinImpact.exe+11509774
-GenshinImpact.exe+11509817: E8 E4 2E F3 EE                                - call GenshinImpact.exe+43C700
-GenshinImpact.exe+1150981C: E8 DF 2E F3 EE                                - call GenshinImpact.exe+43C700
-GenshinImpact.exe+11509821: E8 DA 2E F3 EE                                - call GenshinImpact.exe+43C700
-GenshinImpact.exe+11509826: E8 D5 2E F3 EE                                - call GenshinImpact.exe+43C700
-GenshinImpact.exe+1150982B: E8 D0 2E F3 EE                                - call GenshinImpact.exe+43C700
-GenshinImpact.exe+11509830: CC                                            - int 3
-GenshinImpact.exe+11509831: 66 66 66 66 66 66 2E 0F 1F 84 00 00 00 00 00  - nop word ptr cs:[rax+rax+00000000]
-// ---------- INJECTING HERE ----------
-GenshinImpact.exe+11509840: 41 57                                         - push r15
-// ---------- DONE INJECTING  ----------
-GenshinImpact.exe+11509842: 41 56                                         - push r14
-GenshinImpact.exe+11509844: 56                                            - push rsi
-GenshinImpact.exe+11509845: 57                                            - push rdi
-GenshinImpact.exe+11509846: 55                                            - push rbp
-GenshinImpact.exe+11509847: 53                                            - push rbx
-GenshinImpact.exe+11509848: 48 81 EC B8 01 00 00                          - sub rsp,000001B8
-GenshinImpact.exe+1150984F: 44 0F 29 8C 24 A0 01 00 00                    - movaps [rsp+000001A0],xmm9
-GenshinImpact.exe+11509858: 44 0F 29 84 24 90 01 00 00                    - movaps [rsp+00000190],xmm8
-GenshinImpact.exe+11509861: 0F 29 BC 24 80 01 00 00                       - movaps [rsp+00000180],xmm7
-GenshinImpact.exe+11509869: 0F 29 B4 24 70 01 00 00                       - movaps [rsp+00000170],xmm6
-}
 </AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362294</ID>
+          <Description>"[🔗] Huge Entity Name"</Description>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : GenshinImpact.exe
+  Version: 
+  Date   : 2026-04-22
+  Author : Bayram
+
+  This script does blah blah blah
+}
+define(address,"GenshinImpact.exe"+901B08C)
+define(bytes,F3 0F 11 86 A4 01 00 00)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,"GenshinImpact.exe"+901B08C)
+label(code)
+label(return)
+newmem:
+  mov [rsi+000001A4],(float)-10
+  movss xmm0,[hig]
+code:
+  jmp return
+hig:
+dd (float)50
+address:
+  jmp newmem
+  nop 3
+
+return:
+[DISABLE]
+address:
+  db bytes
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362247</ID>
+          <Description>"[🔗] Weather Changer"</Description>
+          <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript Async="1">define(address,"GenshinImpact.exe"+D304D20)
+define(bytes,56 48 83 EC 20)
+[ENABLE]
+assert(address,bytes)
+alloc(newmem,$1000,"GenshinImpact.exe"+D304D20)
+label(_weatherPath)
+label(code)
+label(return)
+newmem:
+  push rcx
+  push rdx
+  sub rsp,28
+  lea rcx,[_weatherPath]
+  call base+1662D200
+  push rax
+  call base+10A3E6A0
+  mov rdx,rax
+  pop rax
+  mov rcx,rdx
+  mov rdx,rax
+  xorps xmm2, xmm2
+  xorps xmm3, xmm3
+  call base+10A48430
+  add rsp,28
+  pop rdx
+  pop rcx
+code:
+  push rsi
+  sub rsp,20
+  jmp return
+_weatherPath:
+  db 'Data/Environment/Weather/BigWorld/Weather_ClearSky',0
+address:
+  jmp newmem
+return:
+registersymbol(_weatherPath)
+[DISABLE]
+address:
+  db bytes
+dealloc(newmem)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>362248</ID>
+              <Description>"Weather Type"</Description>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">Data/Environment/Weather/BigWorld/Weather_Storm:Storm
+Data/Environment/Weather/BigWorld/Weather_ClearSky:ClearSky
+Data/Environment/Weather/BigWorld/Weather_Cloudy:Cloudy
+Data/Environment/Weather/BigWorld/Weather_Foggy:Foggy
+Data/Environment/Weather/BigWorld/Weather_Dq_Tabeisha_Rain_Heavy:RainHeavy
+Data/Environment/Weather/BigWorld/Weather_LY_Fountain_Rain:Fountain_Rain
+Data/Environment/Weather/BigWorld/Weather_Snowmountain_Snow_Light:SnowLight
+Data/Environment/Weather/BigWorld/Weather_Snowmountain_EastCoast:Clear?
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>800000</Color>
+              <VariableType>String</VariableType>
+              <Length>66</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>_weatherPath</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -1565,6 +1370,7 @@ GenshinImpact.exe+11509869: 0F 29 B4 24 70 01 00 00                       - mova
       <ID>362264</ID>
       <Description>"[🌌] Teleports"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
