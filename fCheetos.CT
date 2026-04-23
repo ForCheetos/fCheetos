@@ -7,6 +7,7 @@
     <CheatEntry>
       <ID>359253</ID>
       <Description>"Enable this Before Using fCheetos"</Description>
+      <LastState/>
       <Color>0000FF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -25,7 +26,7 @@ getMainForm().Panel5.Visible = false
 getMainForm().Splitter1.Visible = false
 
 controlMainForm = getMainForm()
-control_setCaption(controlMainForm,"fCheetos - Tester Version 6.5.1.1 - IF YOU BOUGHT THIS YOU ARE SCAMMED")
+control_setCaption(controlMainForm,"fCheetos - Tester Version 6.5.1.3 - IF YOU BOUGHT THIS YOU ARE SCAMMED")
 {$asm}
 [disable]
 {$lua}
@@ -40,6 +41,7 @@ end
       <ID>356944</ID>
       <Description>"[👑] About - 6.5"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
       <Color>FF8080</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -50,6 +52,7 @@ end
           <ID>357053</ID>
           <Description>"[✨] Developer"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>C0C0C0</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -60,6 +63,7 @@ end
               <ID>356946</ID>
               <Description>"[✨] Crash(OLD)"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -72,6 +76,7 @@ end
                 <CheatEntry>
                   <ID>357038</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -90,6 +95,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
               <ID>362268</ID>
               <Description>"[✨] 515xyz"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -102,6 +108,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
                 <CheatEntry>
                   <ID>362273</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -120,6 +127,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
               <ID>362270</ID>
               <Description>"[✨] lRefund"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -132,6 +140,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
                 <CheatEntry>
                   <ID>362274</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -150,6 +159,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
               <ID>362272</ID>
               <Description>"[✨] Columbina"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -162,6 +172,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
                 <CheatEntry>
                   <ID>362275</ID>
                   <Description>"[🌟] Discord"</Description>
+                  <LastState/>
                   <Color>80FFFF</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[enable]
@@ -182,6 +193,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
           <ID>357099</ID>
           <Description>"[🧸] Contributor"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>C0C0C0</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -191,6 +203,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358623</ID>
               <Description>"[🧸] Arcio"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -203,6 +216,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358622</ID>
               <Description>"[🧸] Dekel"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -215,6 +229,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>357048</ID>
               <Description>"[🧸] Lexi"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -227,6 +242,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358618</ID>
               <Description>"[🧸] ILoveLizzz"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -239,6 +255,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>358624</ID>
               <Description>"[🧸] Torgrain"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -251,6 +268,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
             <CheatEntry>
               <ID>359070</ID>
               <Description>"[🧸] Helmy4Ever"</Description>
+              <LastState/>
               <Color>80FF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[enable]
@@ -265,6 +283,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
         <CheatEntry>
           <ID>357037</ID>
           <Description>"[💬] Discord Server"</Description>
+          <LastState/>
           <Color>4080FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -281,6 +300,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
       <ID>358619</ID>
       <Description>"[🌌] FPS"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -301,6 +321,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
       <ID>359254</ID>
       <Description>"[🌌] Combat"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -315,6 +336,7 @@ showMessage("Warning: Using Combat Features can make you receive unexpected bans
         <CheatEntry>
           <ID>362076</ID>
           <Description>"[🔗] Double Attack"</Description>
+          <LastState/>
           <Color>0000FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -350,6 +372,7 @@ dealloc(newmem)
       <ID>359256</ID>
       <Description>"[🌌] Player"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -360,6 +383,7 @@ dealloc(newmem)
           <ID>352867</ID>
           <Description>"[🔗] View Distance"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -411,6 +435,7 @@ unregistersymbol(*)
           <ID>356941</ID>
           <Description>"[🔗] No Cost"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">[enable]
@@ -420,6 +445,7 @@ unregistersymbol(*)
             <CheatEntry>
               <ID>362226</ID>
               <Description>"[🔗] No Cost Burst"</Description>
+              <LastState/>
               <Color>800000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{
@@ -459,6 +485,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>362230</ID>
               <Description>"[🔗] General Stamina"</Description>
+              <LastState/>
               <Color>800000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript Async="1">{
@@ -498,6 +525,7 @@ dealloc(newmem)
           <ID>362278</ID>
           <Description>"[🔗] God Mode"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{
@@ -556,6 +584,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>362262</ID>
           <Description>"[🔗] Always Elemental Sight"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{
@@ -587,6 +616,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>362228</ID>
           <Description>"[🔗] No Skill Cooldown"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{
@@ -623,6 +653,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>356939</ID>
           <Description>"[🔗] No Fall Damage"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{
@@ -658,6 +689,7 @@ dealloc(newmem)
           <ID>362285</ID>
           <Description>"[🔗] Bunny Hop"</Description>
           <Options moHideChildren="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{
@@ -690,6 +722,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>362304</ID>
           <Description>"[🔗] Run on Water"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{ Game   : GenshinImpact.exe
@@ -765,12 +798,54 @@ GenshinImpact.exe+B513403: B9 EA 0F 00 00        - mov ecx,00000FEA
 }
 </AssemblerScript>
         </CheatEntry>
+        <CheatEntry>
+          <ID>362305</ID>
+          <Description>"[🔗] No Sprint CD"</Description>
+          <LastState/>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>define(address,"GenshinImpact.exe"+68CC050)
+define(bytes,56 48 83 EC 40)
+
+[ENABLE]
+
+assert(address,bytes)
+alloc(newmem,$1000,address)
+
+label(return)
+label(myTick)
+
+newmem:
+  // registerları bozmadan sadece değer ver
+  movss xmm0,[myTick]
+  movss xmm1,[myTick]
+
+  push rsi
+  sub rsp,40
+  jmp return
+
+myTick:
+  dd (float)0
+
+address:
+  jmp newmem
+return:
+
+[DISABLE]
+
+address:
+  db bytes
+
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>359258</ID>
       <Description>"[🌌] World"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -781,6 +856,7 @@ GenshinImpact.exe+B513403: B9 EA 0F 00 00        - mov ecx,00000FEA
           <ID>362236</ID>
           <Description>"[🔗] Game Speed"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>0000FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -832,6 +908,7 @@ dealloc(*)
           <ID>362282</ID>
           <Description>"[🔗] No Enemy Attack"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -867,6 +944,7 @@ dealloc(newmem)
           <ID>362283</ID>
           <Description>"[🔗] No Area Restriction"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -904,6 +982,7 @@ dealloc(newmem)
           <ID>362284</ID>
           <Description>"[🔗] Lava Bathtub"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -939,6 +1018,7 @@ dealloc(newmem)
           <ID>362293</ID>
           <Description>"[🔗] Loot Features"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">[enable]
@@ -949,6 +1029,7 @@ dealloc(newmem)
               <ID>359396</ID>
               <Description>"[🔗] Loot Range"</Description>
               <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
               <Color>A00000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -996,6 +1077,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>362238</ID>
               <Description>"[🔗] Auto Loot"</Description>
+              <LastState/>
               <Color>800000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -1077,6 +1159,7 @@ dealloc(*)
           <ID>359382</ID>
           <Description>"[🔗] Environment Time"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>408000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -1141,6 +1224,7 @@ dealloc(newmem)
       <ID>362243</ID>
       <Description>"[🌌] Visuals"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
@@ -1150,6 +1234,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>359404</ID>
           <Description>"[🔗] Hide Grass"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -1170,6 +1255,7 @@ _hookat:
         <CheatEntry>
           <ID>362253</ID>
           <Description>"[🔗] Hide Fog"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{
@@ -1204,6 +1290,7 @@ dealloc(newmem)
           <ID>362280</ID>
           <Description>"[🔗] Hide Damage"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -1239,6 +1326,7 @@ dealloc(newmem)
           <ID>362281</ID>
           <Description>"[🔗] Hide Reaction"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
@@ -1272,6 +1360,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>362294</ID>
           <Description>"[🔗] Huge Entity Name"</Description>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{ Game   : GenshinImpact.exe
@@ -1310,6 +1399,7 @@ dealloc(newmem)
           <ID>362247</ID>
           <Description>"[🔗] Weather Changer"</Description>
           <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">define(address,"GenshinImpact.exe"+D304D20)
@@ -1384,49 +1474,11 @@ Data/Environment/Weather/BigWorld/Weather_Snowmountain_EastCoast:Clear?
       <ID>362264</ID>
       <Description>"[🌌] Teleports"</Description>
       <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState/>
       <Color>C0C0C0</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[enable]
 [disable]
-</AssemblerScript>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>362305</ID>
-      <Description>"Auto Assemble script"</Description>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>define(address,"GenshinImpact.exe"+68CC050)
-define(bytes,56 48 83 EC 40)
-
-[ENABLE]
-
-assert(address,bytes)
-alloc(newmem,$1000,address)
-
-label(return)
-label(myTick)
-
-newmem:
-  // registerları bozmadan sadece değer ver
-  movss xmm0,[myTick]
-  movss xmm1,[myTick]
-
-  push rsi
-  sub rsp,40
-  jmp return
-
-myTick:
-  dd (float)0
-
-address:
-  jmp newmem
-return:
-
-[DISABLE]
-
-address:
-  db bytes
-
-dealloc(newmem)
 </AssemblerScript>
     </CheatEntry>
   </CheatEntries>
