@@ -310,6 +310,7 @@ synchronize(createTimer, 256, memrec.setActive, false)
         <CheatEntry>
           <ID>359008</ID>
           <Description>"[🔗] Unlock FPS"</Description>
+          <LastState Value="60" RealAddress="7FF6C678087C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -382,7 +383,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>352867</ID>
           <Description>"[🔗] View Distance"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
           <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
@@ -434,7 +435,7 @@ unregistersymbol(*)
         <CheatEntry>
           <ID>356941</ID>
           <Description>"[🔗] No Cost"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
           <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
@@ -976,7 +977,7 @@ dealloc(newmem)
         <CheatEntry>
           <ID>362293</ID>
           <Description>"[🔗] Loot Features"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
           <LastState/>
           <Color>008000</Color>
           <VariableType>Auto Assembler Script</VariableType>
@@ -987,7 +988,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>359396</ID>
               <Description>"[🔗] Loot Range"</Description>
-              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
               <LastState/>
               <Color>A00000</Color>
               <VariableType>Auto Assembler Script</VariableType>
@@ -1010,7 +1011,7 @@ code:
   movd xmm0,[r11+1C]
   jmp return
 LootRange:
-  dd (float)30
+  dd (float)40
 address:
   jmp newmem
   nop
@@ -1111,6 +1112,69 @@ address:
 unregistersymbol(*)
 dealloc(*)
 </AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>359382</ID>
+          <Description>"[🔗] Environment Time"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <Color>408000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript Async="1">{ Game   : GenshinImpact.exe
+  Version:
+  Date   : 2026-04-17
+  Author : crash
+}
+[ENABLE]
+aobscanmodule(__envTime,GenshinImpact.exe,F3 0F 11 46 7C C7 86 A8) // should be unique
+alloc(newmem,$1000,__envTime)
+label(code)
+label(return)
+label(TimeZone)
+newmem:
+push rdx
+lea rdx,[rsi+7C]
+mov [TimeZone],rdx
+pop rdx
+code:
+  movss [rsi+7C],xmm0
+  jmp return
+  TimeZone:
+  resq 1
+__envTime:
+  jmp newmem
+return:
+registersymbol(__envTime TimeZone)
+[DISABLE]
+__envTime:
+  db F3 0F 11 46 7C
+unregistersymbol(__envTime)
+dealloc(newmem)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>359383</ID>
+              <Description>"[⚙️] Time [ 0 -&gt; 24 ]"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>800000</Color>
+              <VariableType>Float</VariableType>
+              <Address>TimeZone</Address>
+              <Offsets>
+                <Offset>0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>359384</ID>
+              <Description>"[⚙️] Time Speed"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>800000</Color>
+              <VariableType>Float</VariableType>
+              <Address>TimeZone</Address>
+              <Offsets>
+                <Offset>-18</Offset>
+              </Offsets>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
