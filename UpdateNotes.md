@@ -6,5 +6,6 @@
 - Added `Move Features`.
 - Added `Update Notes`.
 - Added `Current Bugs`.
+- Improved `GUI`.
 
 
