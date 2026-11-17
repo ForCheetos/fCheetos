@@ -4,5 +4,7 @@
 - Added `UI Scale`.
 - Added `Interactive Magnetic Particles`.
 - Added `Move Features`.
+- Added `Update Notes`.
+- Added `Current Bugs`.
 
 
