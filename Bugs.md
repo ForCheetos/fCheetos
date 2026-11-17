@@ -1,3 +1,2 @@
-**1.** Config system is half-broken. 
+**1.** Config system is half-broken. [ALREADY FIXED WITH NEXT VERSION]
 **2.** BunnyHop is not working at all.
-Bugs will be fixed with next version.
