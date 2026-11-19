@@ -1,1 +1,1 @@
-No bugs found for this version.
+- Panic Button is half-working. [THIS PROBLEM IS ALREADY FIXED WITH NEXT VERSION]
