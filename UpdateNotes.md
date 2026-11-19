@@ -1,11 +1,15 @@
-## Date: 11.17.2026
-- Updated to `OSREL7.2`.
-- Added `Glass` Theme.
-- Added `UI Scale`.
-- Added `Interactive Magnetic Particles`.
-- Added `Move Features`.
-- Added `Update Notes`.
-- Added `Current Bugs`.
+## Date: 11.19.2026
+- Fixed `Bunny Hop`.
+- Fixed `Weather Changer`.
+- Fixed `Config System`.
+- Updated `No Fall Damage`.
+- Updated `Instant Bow Charge`.
+- Updated `Time Changer`.
+- Updated `Lava Bathtub`.
+- Updated `No Enemy Attack`.
+- Added `FPS Indicator`. 
+- Added `Panic Button` for Co-op etc.
+- Added `Streamer Mode`.
 - Improved `GUI`.
-
-
+- Now, Application is working in the background. 
+- Made some important fixes and optimized launcher.
