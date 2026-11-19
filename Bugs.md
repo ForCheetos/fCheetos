@@ -1,1 +1,2 @@
 - Panic Button is half-working. [THIS PROBLEM IS ALREADY FIXED WITH NEXT VERSION]
+- Profile Name Part is working not properly that it doubles ur entries : "p" -> "pp". [THIS PROBLEM IS ALREADY FIXED WITH NEXT VERSION]
