@@ -1,15 +1,5 @@
-## Date: 11.19.2026
-- Fixed `Bunny Hop`.
-- Fixed `Weather Changer`.
-- Fixed `Config System`.
-- Updated `No Fall Damage`.
-- Updated `Instant Bow Charge`.
-- Updated `Time Changer`.
-- Updated `Lava Bathtub`.
-- Updated `No Enemy Attack`.
-- Added `FPS Indicator`. 
-- Added `Panic Button` for Co-op etc.
-- Added `Streamer Mode`.
-- Improved `GUI`.
+## Date: 11.21.2026
+
+- Updated to `OSREL7.2`.
 - Now, Application is working in the background. 
 - Made some important fixes and optimized launcher.
